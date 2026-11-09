@@ -4,3 +4,5 @@ allowBuilds:
   esbuild: true
   node-liblzma: false
   protobufjs: false
+patchedDependencies:
+  '@earendil-works/pi-ai@0.79.6': patches/@earendil-works__pi-ai@0.79.6.patch

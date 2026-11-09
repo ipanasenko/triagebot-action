@@ -1,0 +1,55 @@
+diff --git a/dist/models.generated.js b/dist/models.generated.js
+index 86740a12b722e5b8f47fd2fd440ba54854a4184f..6992adf8b9e530bd61deb043f2991209dd423fca 100644
+--- a/dist/models.generated.js
++++ b/dist/models.generated.js
+@@ -3594,6 +3594,25 @@ export const MODELS = {
+         },
+     },
+     "cloudflare-workers-ai": {
++        "@cf/deepseek-ai/deepseek-v4.1-flash-1017": {
++            id: "@cf/deepseek-ai/deepseek-v4.1-flash-1017",
++            name: "DeepSeek V4.1 Flash 1017",
++            api: "openai-completions",
++            provider: "cloudflare-workers-ai",
++            baseUrl: "https://api.cloudflare.com/client/v4/accounts/{CLOUDFLARE_ACCOUNT_ID}/ai/v1",
++            compat: { "sendSessionAffinityHeaders": true, "requiresReasoningContentOnAssistantMessages": true, "thinkingFormat": "deepseek" },
++            reasoning: true,
++            thinkingLevelMap: { "minimal": null, "low": null, "medium": null, "high": "high", "xhigh": "max" },
++            input: ["text", "image"],
++            cost: {
++                input: 0.3,
++                output: 1.2,
++                cacheRead: 0.006,
++                cacheWrite: 0,
++            },
++            contextWindow: 1048576,
++            maxTokens: 1048576,
++        },
+         "@cf/google/gemma-4-26b-a4b-it": {
+             id: "@cf/google/gemma-4-26b-a4b-it",
+             name: "Gemma 4 26B A4B IT",
+@@ -3828,6 +3847,24 @@ export const MODELS = {
+             contextWindow: 262144,
+             maxTokens: 262144,
+         },
++        "@cf/zai-org/glm-5.3": {
++            id: "@cf/zai-org/glm-5.3",
++            name: "Glm 5.3",
++            api: "openai-completions",
++            provider: "cloudflare-workers-ai",
++            baseUrl: "https://api.cloudflare.com/client/v4/accounts/{CLOUDFLARE_ACCOUNT_ID}/ai/v1",
++            compat: { "sendSessionAffinityHeaders": true },
++            reasoning: true,
++            input: ["text"],
++            cost: {
++                input: 1.4,
++                output: 4.4,
++                cacheRead: 0.26,
++                cacheWrite: 0,
++            },
++            contextWindow: 1048576,
++            maxTokens: 1048576,
++        },
+     },
+     "deepseek": {
+         "deepseek-v4-flash": {

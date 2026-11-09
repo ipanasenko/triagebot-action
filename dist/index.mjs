@@ -38,7 +38,7 @@ var __toESM = (mod, isNodeMode, target) => (target = mod != null ? __create(__ge
   mod
 ));
 
-// node_modules/.pnpm/@earendil-works+pi-ai@0.79.6_@modelcontextprotocol+sdk@1.29.0_zod@4.4.3__ws@8.21.0_zod@4.4.3/node_modules/@earendil-works/pi-ai/dist/utils/provider-env.js
+// node_modules/.pnpm/@earendil-works+pi-ai@0.79.6_patch_hash=feb48f02b3090b924e4a1df96f555d25ebf591ee68c7ace_f8e43712851b5deac3f760407c7aa54b/node_modules/@earendil-works/pi-ai/dist/utils/provider-env.js
 function getBunSandboxEnvValue(name) {
   if (typeof process === "undefined" || !process.versions?.bun || Object.keys(process.env).length > 0) {
     return void 0;
@@ -64,7 +64,7 @@ function getProviderEnvValue(name, env2) {
 }
 var procEnvCache;
 var init_provider_env = __esm({
-  "node_modules/.pnpm/@earendil-works+pi-ai@0.79.6_@modelcontextprotocol+sdk@1.29.0_zod@4.4.3__ws@8.21.0_zod@4.4.3/node_modules/@earendil-works/pi-ai/dist/utils/provider-env.js"() {
+  "node_modules/.pnpm/@earendil-works+pi-ai@0.79.6_patch_hash=feb48f02b3090b924e4a1df96f555d25ebf591ee68c7ace_f8e43712851b5deac3f760407c7aa54b/node_modules/@earendil-works/pi-ai/dist/utils/provider-env.js"() {
     procEnvCache = null;
   }
 });
@@ -8033,7 +8033,7 @@ var init_openai = __esm({
   }
 });
 
-// node_modules/.pnpm/@earendil-works+pi-ai@0.79.6_@modelcontextprotocol+sdk@1.29.0_zod@4.4.3__ws@8.21.0_zod@4.4.3/node_modules/@earendil-works/pi-ai/dist/utils/headers.js
+// node_modules/.pnpm/@earendil-works+pi-ai@0.79.6_patch_hash=feb48f02b3090b924e4a1df96f555d25ebf591ee68c7ace_f8e43712851b5deac3f760407c7aa54b/node_modules/@earendil-works/pi-ai/dist/utils/headers.js
 function headersToRecord(headers2) {
   const result = {};
   for (const [key, value] of headers2.entries()) {
@@ -8042,20 +8042,20 @@ function headersToRecord(headers2) {
   return result;
 }
 var init_headers2 = __esm({
-  "node_modules/.pnpm/@earendil-works+pi-ai@0.79.6_@modelcontextprotocol+sdk@1.29.0_zod@4.4.3__ws@8.21.0_zod@4.4.3/node_modules/@earendil-works/pi-ai/dist/utils/headers.js"() {
+  "node_modules/.pnpm/@earendil-works+pi-ai@0.79.6_patch_hash=feb48f02b3090b924e4a1df96f555d25ebf591ee68c7ace_f8e43712851b5deac3f760407c7aa54b/node_modules/@earendil-works/pi-ai/dist/utils/headers.js"() {
   }
 });
 
-// node_modules/.pnpm/@earendil-works+pi-ai@0.79.6_@modelcontextprotocol+sdk@1.29.0_zod@4.4.3__ws@8.21.0_zod@4.4.3/node_modules/@earendil-works/pi-ai/dist/utils/sanitize-unicode.js
+// node_modules/.pnpm/@earendil-works+pi-ai@0.79.6_patch_hash=feb48f02b3090b924e4a1df96f555d25ebf591ee68c7ace_f8e43712851b5deac3f760407c7aa54b/node_modules/@earendil-works/pi-ai/dist/utils/sanitize-unicode.js
 function sanitizeSurrogates(text) {
   return text.replace(/[\uD800-\uDBFF](?![\uDC00-\uDFFF])|(?<![\uD800-\uDBFF])[\uDC00-\uDFFF]/g, "");
 }
 var init_sanitize_unicode = __esm({
-  "node_modules/.pnpm/@earendil-works+pi-ai@0.79.6_@modelcontextprotocol+sdk@1.29.0_zod@4.4.3__ws@8.21.0_zod@4.4.3/node_modules/@earendil-works/pi-ai/dist/utils/sanitize-unicode.js"() {
+  "node_modules/.pnpm/@earendil-works+pi-ai@0.79.6_patch_hash=feb48f02b3090b924e4a1df96f555d25ebf591ee68c7ace_f8e43712851b5deac3f760407c7aa54b/node_modules/@earendil-works/pi-ai/dist/utils/sanitize-unicode.js"() {
   }
 });
 
-// node_modules/.pnpm/@earendil-works+pi-ai@0.79.6_@modelcontextprotocol+sdk@1.29.0_zod@4.4.3__ws@8.21.0_zod@4.4.3/node_modules/@earendil-works/pi-ai/dist/providers/images/openrouter.js
+// node_modules/.pnpm/@earendil-works+pi-ai@0.79.6_patch_hash=feb48f02b3090b924e4a1df96f555d25ebf591ee68c7ace_f8e43712851b5deac3f760407c7aa54b/node_modules/@earendil-works/pi-ai/dist/providers/images/openrouter.js
 var openrouter_exports = {};
 __export(openrouter_exports, {
   generateImagesOpenRouter: () => generateImagesOpenRouter
@@ -8124,7 +8124,7 @@ function parseUsage(rawUsage, model) {
 }
 var generateImagesOpenRouter;
 var init_openrouter = __esm({
-  "node_modules/.pnpm/@earendil-works+pi-ai@0.79.6_@modelcontextprotocol+sdk@1.29.0_zod@4.4.3__ws@8.21.0_zod@4.4.3/node_modules/@earendil-works/pi-ai/dist/providers/images/openrouter.js"() {
+  "node_modules/.pnpm/@earendil-works+pi-ai@0.79.6_patch_hash=feb48f02b3090b924e4a1df96f555d25ebf591ee68c7ace_f8e43712851b5deac3f760407c7aa54b/node_modules/@earendil-works/pi-ai/dist/providers/images/openrouter.js"() {
     init_openai();
     init_headers2();
     init_sanitize_unicode();
@@ -8190,10 +8190,10 @@ var init_openrouter = __esm({
   }
 });
 
-// node_modules/.pnpm/@earendil-works+pi-ai@0.79.6_@modelcontextprotocol+sdk@1.29.0_zod@4.4.3__ws@8.21.0_zod@4.4.3/node_modules/@earendil-works/pi-ai/dist/models.generated.js
+// node_modules/.pnpm/@earendil-works+pi-ai@0.79.6_patch_hash=feb48f02b3090b924e4a1df96f555d25ebf591ee68c7ace_f8e43712851b5deac3f760407c7aa54b/node_modules/@earendil-works/pi-ai/dist/models.generated.js
 var MODELS;
 var init_models_generated = __esm({
-  "node_modules/.pnpm/@earendil-works+pi-ai@0.79.6_@modelcontextprotocol+sdk@1.29.0_zod@4.4.3__ws@8.21.0_zod@4.4.3/node_modules/@earendil-works/pi-ai/dist/models.generated.js"() {
+  "node_modules/.pnpm/@earendil-works+pi-ai@0.79.6_patch_hash=feb48f02b3090b924e4a1df96f555d25ebf591ee68c7ace_f8e43712851b5deac3f760407c7aa54b/node_modules/@earendil-works/pi-ai/dist/models.generated.js"() {
     MODELS = {
       "amazon-bedrock": {
         "amazon.nova-2-lite-v1:0": {
@@ -11788,6 +11788,25 @@ var init_models_generated = __esm({
         }
       },
       "cloudflare-workers-ai": {
+        "@cf/deepseek-ai/deepseek-v4.1-flash-1017": {
+          id: "@cf/deepseek-ai/deepseek-v4.1-flash-1017",
+          name: "DeepSeek V4.1 Flash 1017",
+          api: "openai-completions",
+          provider: "cloudflare-workers-ai",
+          baseUrl: "https://api.cloudflare.com/client/v4/accounts/{CLOUDFLARE_ACCOUNT_ID}/ai/v1",
+          compat: { "sendSessionAffinityHeaders": true, "requiresReasoningContentOnAssistantMessages": true, "thinkingFormat": "deepseek" },
+          reasoning: true,
+          thinkingLevelMap: { "minimal": null, "low": null, "medium": null, "high": "high", "xhigh": "max" },
+          input: ["text", "image"],
+          cost: {
+            input: 0.3,
+            output: 1.2,
+            cacheRead: 6e-3,
+            cacheWrite: 0
+          },
+          contextWindow: 1048576,
+          maxTokens: 1048576
+        },
         "@cf/google/gemma-4-26b-a4b-it": {
           id: "@cf/google/gemma-4-26b-a4b-it",
           name: "Gemma 4 26B A4B IT",
@@ -12021,6 +12040,24 @@ var init_models_generated = __esm({
           },
           contextWindow: 262144,
           maxTokens: 262144
+        },
+        "@cf/zai-org/glm-5.3": {
+          id: "@cf/zai-org/glm-5.3",
+          name: "Glm 5.3",
+          api: "openai-completions",
+          provider: "cloudflare-workers-ai",
+          baseUrl: "https://api.cloudflare.com/client/v4/accounts/{CLOUDFLARE_ACCOUNT_ID}/ai/v1",
+          compat: { "sendSessionAffinityHeaders": true },
+          reasoning: true,
+          input: ["text"],
+          cost: {
+            input: 1.4,
+            output: 4.4,
+            cacheRead: 0.26,
+            cacheWrite: 0
+          },
+          contextWindow: 1048576,
+          maxTokens: 1048576
         }
       },
       "deepseek": {
@@ -25304,7 +25341,7 @@ var init_models_generated = __esm({
   }
 });
 
-// node_modules/.pnpm/@earendil-works+pi-ai@0.79.6_@modelcontextprotocol+sdk@1.29.0_zod@4.4.3__ws@8.21.0_zod@4.4.3/node_modules/@earendil-works/pi-ai/dist/models.js
+// node_modules/.pnpm/@earendil-works+pi-ai@0.79.6_patch_hash=feb48f02b3090b924e4a1df96f555d25ebf591ee68c7ace_f8e43712851b5deac3f760407c7aa54b/node_modules/@earendil-works/pi-ai/dist/models.js
 function getModel(provider, modelId) {
   const providerModels = modelRegistry.get(provider);
   return providerModels?.get(modelId);
@@ -25352,7 +25389,7 @@ function clampThinkingLevel(model, level) {
 }
 var modelRegistry, EXTENDED_THINKING_LEVELS;
 var init_models2 = __esm({
-  "node_modules/.pnpm/@earendil-works+pi-ai@0.79.6_@modelcontextprotocol+sdk@1.29.0_zod@4.4.3__ws@8.21.0_zod@4.4.3/node_modules/@earendil-works/pi-ai/dist/models.js"() {
+  "node_modules/.pnpm/@earendil-works+pi-ai@0.79.6_patch_hash=feb48f02b3090b924e4a1df96f555d25ebf591ee68c7ace_f8e43712851b5deac3f760407c7aa54b/node_modules/@earendil-works/pi-ai/dist/models.js"() {
     init_models_generated();
     modelRegistry = /* @__PURE__ */ new Map();
     for (const [provider, models] of Object.entries(MODELS)) {
@@ -25366,10 +25403,10 @@ var init_models2 = __esm({
   }
 });
 
-// node_modules/.pnpm/@earendil-works+pi-ai@0.79.6_@modelcontextprotocol+sdk@1.29.0_zod@4.4.3__ws@8.21.0_zod@4.4.3/node_modules/@earendil-works/pi-ai/dist/utils/event-stream.js
+// node_modules/.pnpm/@earendil-works+pi-ai@0.79.6_patch_hash=feb48f02b3090b924e4a1df96f555d25ebf591ee68c7ace_f8e43712851b5deac3f760407c7aa54b/node_modules/@earendil-works/pi-ai/dist/utils/event-stream.js
 var EventStream2, AssistantMessageEventStream;
 var init_event_stream = __esm({
-  "node_modules/.pnpm/@earendil-works+pi-ai@0.79.6_@modelcontextprotocol+sdk@1.29.0_zod@4.4.3__ws@8.21.0_zod@4.4.3/node_modules/@earendil-works/pi-ai/dist/utils/event-stream.js"() {
+  "node_modules/.pnpm/@earendil-works+pi-ai@0.79.6_patch_hash=feb48f02b3090b924e4a1df96f555d25ebf591ee68c7ace_f8e43712851b5deac3f760407c7aa54b/node_modules/@earendil-works/pi-ai/dist/utils/event-stream.js"() {
     EventStream2 = class {
       queue = [];
       waiting = [];
@@ -32399,7 +32436,7 @@ var require_dist = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@earendil-works+pi-ai@0.79.6_@modelcontextprotocol+sdk@1.29.0_zod@4.4.3__ws@8.21.0_zod@4.4.3/node_modules/@earendil-works/pi-ai/dist/utils/json-parse.js
+// node_modules/.pnpm/@earendil-works+pi-ai@0.79.6_patch_hash=feb48f02b3090b924e4a1df96f555d25ebf591ee68c7ace_f8e43712851b5deac3f760407c7aa54b/node_modules/@earendil-works/pi-ai/dist/utils/json-parse.js
 function isControlCharacter(char) {
   const codePoint = char.codePointAt(0);
   return codePoint !== void 0 && codePoint >= 0 && codePoint <= 31;
@@ -32496,13 +32533,13 @@ function parseStreamingJson(partialJson) {
 }
 var import_partial_json, VALID_JSON_ESCAPES;
 var init_json_parse = __esm({
-  "node_modules/.pnpm/@earendil-works+pi-ai@0.79.6_@modelcontextprotocol+sdk@1.29.0_zod@4.4.3__ws@8.21.0_zod@4.4.3/node_modules/@earendil-works/pi-ai/dist/utils/json-parse.js"() {
+  "node_modules/.pnpm/@earendil-works+pi-ai@0.79.6_patch_hash=feb48f02b3090b924e4a1df96f555d25ebf591ee68c7ace_f8e43712851b5deac3f760407c7aa54b/node_modules/@earendil-works/pi-ai/dist/utils/json-parse.js"() {
     import_partial_json = __toESM(require_dist(), 1);
     VALID_JSON_ESCAPES = /* @__PURE__ */ new Set(['"', "\\", "/", "b", "f", "n", "r", "t", "u"]);
   }
 });
 
-// node_modules/.pnpm/@earendil-works+pi-ai@0.79.6_@modelcontextprotocol+sdk@1.29.0_zod@4.4.3__ws@8.21.0_zod@4.4.3/node_modules/@earendil-works/pi-ai/dist/providers/cloudflare.js
+// node_modules/.pnpm/@earendil-works+pi-ai@0.79.6_patch_hash=feb48f02b3090b924e4a1df96f555d25ebf591ee68c7ace_f8e43712851b5deac3f760407c7aa54b/node_modules/@earendil-works/pi-ai/dist/providers/cloudflare.js
 function isCloudflareProvider(provider) {
   return provider === "cloudflare-workers-ai" || provider === "cloudflare-ai-gateway";
 }
@@ -32520,12 +32557,12 @@ function resolveCloudflareBaseUrl(model, env2) {
   return baseUrl;
 }
 var init_cloudflare = __esm({
-  "node_modules/.pnpm/@earendil-works+pi-ai@0.79.6_@modelcontextprotocol+sdk@1.29.0_zod@4.4.3__ws@8.21.0_zod@4.4.3/node_modules/@earendil-works/pi-ai/dist/providers/cloudflare.js"() {
+  "node_modules/.pnpm/@earendil-works+pi-ai@0.79.6_patch_hash=feb48f02b3090b924e4a1df96f555d25ebf591ee68c7ace_f8e43712851b5deac3f760407c7aa54b/node_modules/@earendil-works/pi-ai/dist/providers/cloudflare.js"() {
     init_provider_env();
   }
 });
 
-// node_modules/.pnpm/@earendil-works+pi-ai@0.79.6_@modelcontextprotocol+sdk@1.29.0_zod@4.4.3__ws@8.21.0_zod@4.4.3/node_modules/@earendil-works/pi-ai/dist/providers/github-copilot-headers.js
+// node_modules/.pnpm/@earendil-works+pi-ai@0.79.6_patch_hash=feb48f02b3090b924e4a1df96f555d25ebf591ee68c7ace_f8e43712851b5deac3f760407c7aa54b/node_modules/@earendil-works/pi-ai/dist/providers/github-copilot-headers.js
 function inferCopilotInitiator(messages) {
   const last = messages[messages.length - 1];
   return last && last.role !== "user" ? "agent" : "user";
@@ -32552,11 +32589,11 @@ function buildCopilotDynamicHeaders(params) {
   return headers2;
 }
 var init_github_copilot_headers = __esm({
-  "node_modules/.pnpm/@earendil-works+pi-ai@0.79.6_@modelcontextprotocol+sdk@1.29.0_zod@4.4.3__ws@8.21.0_zod@4.4.3/node_modules/@earendil-works/pi-ai/dist/providers/github-copilot-headers.js"() {
+  "node_modules/.pnpm/@earendil-works+pi-ai@0.79.6_patch_hash=feb48f02b3090b924e4a1df96f555d25ebf591ee68c7ace_f8e43712851b5deac3f760407c7aa54b/node_modules/@earendil-works/pi-ai/dist/providers/github-copilot-headers.js"() {
   }
 });
 
-// node_modules/.pnpm/@earendil-works+pi-ai@0.79.6_@modelcontextprotocol+sdk@1.29.0_zod@4.4.3__ws@8.21.0_zod@4.4.3/node_modules/@earendil-works/pi-ai/dist/providers/simple-options.js
+// node_modules/.pnpm/@earendil-works+pi-ai@0.79.6_patch_hash=feb48f02b3090b924e4a1df96f555d25ebf591ee68c7ace_f8e43712851b5deac3f760407c7aa54b/node_modules/@earendil-works/pi-ai/dist/providers/simple-options.js
 function buildBaseOptions(_model, options, apiKey) {
   return {
     temperature: options?.temperature,
@@ -32598,11 +32635,11 @@ function adjustMaxTokensForThinking(baseMaxTokens, modelMaxTokens, reasoningLeve
   return { maxTokens, thinkingBudget };
 }
 var init_simple_options = __esm({
-  "node_modules/.pnpm/@earendil-works+pi-ai@0.79.6_@modelcontextprotocol+sdk@1.29.0_zod@4.4.3__ws@8.21.0_zod@4.4.3/node_modules/@earendil-works/pi-ai/dist/providers/simple-options.js"() {
+  "node_modules/.pnpm/@earendil-works+pi-ai@0.79.6_patch_hash=feb48f02b3090b924e4a1df96f555d25ebf591ee68c7ace_f8e43712851b5deac3f760407c7aa54b/node_modules/@earendil-works/pi-ai/dist/providers/simple-options.js"() {
   }
 });
 
-// node_modules/.pnpm/@earendil-works+pi-ai@0.79.6_@modelcontextprotocol+sdk@1.29.0_zod@4.4.3__ws@8.21.0_zod@4.4.3/node_modules/@earendil-works/pi-ai/dist/providers/transform-messages.js
+// node_modules/.pnpm/@earendil-works+pi-ai@0.79.6_patch_hash=feb48f02b3090b924e4a1df96f555d25ebf591ee68c7ace_f8e43712851b5deac3f760407c7aa54b/node_modules/@earendil-works/pi-ai/dist/providers/transform-messages.js
 function replaceImagesWithPlaceholder(content, placeholder) {
   const result = [];
   let previousWasPlaceholder = false;
@@ -32755,13 +32792,13 @@ function transformMessages(messages, model, normalizeToolCallId2) {
 }
 var NON_VISION_USER_IMAGE_PLACEHOLDER, NON_VISION_TOOL_IMAGE_PLACEHOLDER;
 var init_transform_messages = __esm({
-  "node_modules/.pnpm/@earendil-works+pi-ai@0.79.6_@modelcontextprotocol+sdk@1.29.0_zod@4.4.3__ws@8.21.0_zod@4.4.3/node_modules/@earendil-works/pi-ai/dist/providers/transform-messages.js"() {
+  "node_modules/.pnpm/@earendil-works+pi-ai@0.79.6_patch_hash=feb48f02b3090b924e4a1df96f555d25ebf591ee68c7ace_f8e43712851b5deac3f760407c7aa54b/node_modules/@earendil-works/pi-ai/dist/providers/transform-messages.js"() {
     NON_VISION_USER_IMAGE_PLACEHOLDER = "(image omitted: model does not support images)";
     NON_VISION_TOOL_IMAGE_PLACEHOLDER = "(tool image omitted: model does not support images)";
   }
 });
 
-// node_modules/.pnpm/@earendil-works+pi-ai@0.79.6_@modelcontextprotocol+sdk@1.29.0_zod@4.4.3__ws@8.21.0_zod@4.4.3/node_modules/@earendil-works/pi-ai/dist/providers/anthropic.js
+// node_modules/.pnpm/@earendil-works+pi-ai@0.79.6_patch_hash=feb48f02b3090b924e4a1df96f555d25ebf591ee68c7ace_f8e43712851b5deac3f760407c7aa54b/node_modules/@earendil-works/pi-ai/dist/providers/anthropic.js
 var anthropic_exports = {};
 __export(anthropic_exports, {
   streamAnthropic: () => streamAnthropic,
@@ -33331,7 +33368,7 @@ function mapStopReason(reason, stopDetails) {
 }
 var claudeCodeVersion, claudeCodeTools, ccToolLookup, toClaudeCodeName, fromClaudeCodeName, FINE_GRAINED_TOOL_STREAMING_BETA, INTERLEAVED_THINKING_BETA, ANTHROPIC_MESSAGE_EVENTS, streamAnthropic, streamSimpleAnthropic;
 var init_anthropic = __esm({
-  "node_modules/.pnpm/@earendil-works+pi-ai@0.79.6_@modelcontextprotocol+sdk@1.29.0_zod@4.4.3__ws@8.21.0_zod@4.4.3/node_modules/@earendil-works/pi-ai/dist/providers/anthropic.js"() {
+  "node_modules/.pnpm/@earendil-works+pi-ai@0.79.6_patch_hash=feb48f02b3090b924e4a1df96f555d25ebf591ee68c7ace_f8e43712851b5deac3f760407c7aa54b/node_modules/@earendil-works/pi-ai/dist/providers/anthropic.js"() {
     init_sdk();
     init_models2();
     init_event_stream();
@@ -33642,7 +33679,7 @@ var init_anthropic = __esm({
   }
 });
 
-// node_modules/.pnpm/@earendil-works+pi-ai@0.79.6_@modelcontextprotocol+sdk@1.29.0_zod@4.4.3__ws@8.21.0_zod@4.4.3/node_modules/@earendil-works/pi-ai/dist/providers/openai-prompt-cache.js
+// node_modules/.pnpm/@earendil-works+pi-ai@0.79.6_patch_hash=feb48f02b3090b924e4a1df96f555d25ebf591ee68c7ace_f8e43712851b5deac3f760407c7aa54b/node_modules/@earendil-works/pi-ai/dist/providers/openai-prompt-cache.js
 function clampOpenAIPromptCacheKey(key) {
   if (key === void 0)
     return void 0;
@@ -33653,12 +33690,12 @@ function clampOpenAIPromptCacheKey(key) {
 }
 var OPENAI_PROMPT_CACHE_KEY_MAX_LENGTH;
 var init_openai_prompt_cache = __esm({
-  "node_modules/.pnpm/@earendil-works+pi-ai@0.79.6_@modelcontextprotocol+sdk@1.29.0_zod@4.4.3__ws@8.21.0_zod@4.4.3/node_modules/@earendil-works/pi-ai/dist/providers/openai-prompt-cache.js"() {
+  "node_modules/.pnpm/@earendil-works+pi-ai@0.79.6_patch_hash=feb48f02b3090b924e4a1df96f555d25ebf591ee68c7ace_f8e43712851b5deac3f760407c7aa54b/node_modules/@earendil-works/pi-ai/dist/providers/openai-prompt-cache.js"() {
     OPENAI_PROMPT_CACHE_KEY_MAX_LENGTH = 64;
   }
 });
 
-// node_modules/.pnpm/@earendil-works+pi-ai@0.79.6_@modelcontextprotocol+sdk@1.29.0_zod@4.4.3__ws@8.21.0_zod@4.4.3/node_modules/@earendil-works/pi-ai/dist/utils/hash.js
+// node_modules/.pnpm/@earendil-works+pi-ai@0.79.6_patch_hash=feb48f02b3090b924e4a1df96f555d25ebf591ee68c7ace_f8e43712851b5deac3f760407c7aa54b/node_modules/@earendil-works/pi-ai/dist/utils/hash.js
 function shortHash(str2) {
   let h110 = 3735928559;
   let h22 = 1103547991;
@@ -33672,11 +33709,11 @@ function shortHash(str2) {
   return (h22 >>> 0).toString(36) + (h110 >>> 0).toString(36);
 }
 var init_hash = __esm({
-  "node_modules/.pnpm/@earendil-works+pi-ai@0.79.6_@modelcontextprotocol+sdk@1.29.0_zod@4.4.3__ws@8.21.0_zod@4.4.3/node_modules/@earendil-works/pi-ai/dist/utils/hash.js"() {
+  "node_modules/.pnpm/@earendil-works+pi-ai@0.79.6_patch_hash=feb48f02b3090b924e4a1df96f555d25ebf591ee68c7ace_f8e43712851b5deac3f760407c7aa54b/node_modules/@earendil-works/pi-ai/dist/utils/hash.js"() {
   }
 });
 
-// node_modules/.pnpm/@earendil-works+pi-ai@0.79.6_@modelcontextprotocol+sdk@1.29.0_zod@4.4.3__ws@8.21.0_zod@4.4.3/node_modules/@earendil-works/pi-ai/dist/providers/openai-responses-shared.js
+// node_modules/.pnpm/@earendil-works+pi-ai@0.79.6_patch_hash=feb48f02b3090b924e4a1df96f555d25ebf591ee68c7ace_f8e43712851b5deac3f760407c7aa54b/node_modules/@earendil-works/pi-ai/dist/providers/openai-responses-shared.js
 function encodeTextSignatureV1(id, phase) {
   const payload = { v: 1, id };
   if (phase)
@@ -34107,7 +34144,7 @@ function mapStopReason2(status) {
   }
 }
 var init_openai_responses_shared = __esm({
-  "node_modules/.pnpm/@earendil-works+pi-ai@0.79.6_@modelcontextprotocol+sdk@1.29.0_zod@4.4.3__ws@8.21.0_zod@4.4.3/node_modules/@earendil-works/pi-ai/dist/providers/openai-responses-shared.js"() {
+  "node_modules/.pnpm/@earendil-works+pi-ai@0.79.6_patch_hash=feb48f02b3090b924e4a1df96f555d25ebf591ee68c7ace_f8e43712851b5deac3f760407c7aa54b/node_modules/@earendil-works/pi-ai/dist/providers/openai-responses-shared.js"() {
     init_models2();
     init_hash();
     init_json_parse();
@@ -34116,7 +34153,7 @@ var init_openai_responses_shared = __esm({
   }
 });
 
-// node_modules/.pnpm/@earendil-works+pi-ai@0.79.6_@modelcontextprotocol+sdk@1.29.0_zod@4.4.3__ws@8.21.0_zod@4.4.3/node_modules/@earendil-works/pi-ai/dist/providers/azure-openai-responses.js
+// node_modules/.pnpm/@earendil-works+pi-ai@0.79.6_patch_hash=feb48f02b3090b924e4a1df96f555d25ebf591ee68c7ace_f8e43712851b5deac3f760407c7aa54b/node_modules/@earendil-works/pi-ai/dist/providers/azure-openai-responses.js
 var azure_openai_responses_exports = {};
 __export(azure_openai_responses_exports, {
   streamAzureOpenAIResponses: () => streamAzureOpenAIResponses,
@@ -34247,7 +34284,7 @@ function buildParams3(model, context, options, deploymentName) {
 }
 var DEFAULT_AZURE_API_VERSION, AZURE_TOOL_CALL_PROVIDERS, streamAzureOpenAIResponses, streamSimpleAzureOpenAIResponses;
 var init_azure_openai_responses = __esm({
-  "node_modules/.pnpm/@earendil-works+pi-ai@0.79.6_@modelcontextprotocol+sdk@1.29.0_zod@4.4.3__ws@8.21.0_zod@4.4.3/node_modules/@earendil-works/pi-ai/dist/providers/azure-openai-responses.js"() {
+  "node_modules/.pnpm/@earendil-works+pi-ai@0.79.6_patch_hash=feb48f02b3090b924e4a1df96f555d25ebf591ee68c7ace_f8e43712851b5deac3f760407c7aa54b/node_modules/@earendil-works/pi-ai/dist/providers/azure-openai-responses.js"() {
     init_openai();
     init_models2();
     init_event_stream();
@@ -74665,7 +74702,7 @@ ${underline}`);
   }
 });
 
-// node_modules/.pnpm/@earendil-works+pi-ai@0.79.6_@modelcontextprotocol+sdk@1.29.0_zod@4.4.3__ws@8.21.0_zod@4.4.3/node_modules/@earendil-works/pi-ai/dist/providers/google-shared.js
+// node_modules/.pnpm/@earendil-works+pi-ai@0.79.6_patch_hash=feb48f02b3090b924e4a1df96f555d25ebf591ee68c7ace_f8e43712851b5deac3f760407c7aa54b/node_modules/@earendil-works/pi-ai/dist/providers/google-shared.js
 function isThinkingPart(part) {
   return part.thought === true;
 }
@@ -74890,7 +74927,7 @@ function mapStopReason3(reason) {
 }
 var base64SignaturePattern, JSON_SCHEMA_META_DECLARATIONS;
 var init_google_shared = __esm({
-  "node_modules/.pnpm/@earendil-works+pi-ai@0.79.6_@modelcontextprotocol+sdk@1.29.0_zod@4.4.3__ws@8.21.0_zod@4.4.3/node_modules/@earendil-works/pi-ai/dist/providers/google-shared.js"() {
+  "node_modules/.pnpm/@earendil-works+pi-ai@0.79.6_patch_hash=feb48f02b3090b924e4a1df96f555d25ebf591ee68c7ace_f8e43712851b5deac3f760407c7aa54b/node_modules/@earendil-works/pi-ai/dist/providers/google-shared.js"() {
     init_node();
     init_sanitize_unicode();
     init_transform_messages();
@@ -74909,7 +74946,7 @@ var init_google_shared = __esm({
   }
 });
 
-// node_modules/.pnpm/@earendil-works+pi-ai@0.79.6_@modelcontextprotocol+sdk@1.29.0_zod@4.4.3__ws@8.21.0_zod@4.4.3/node_modules/@earendil-works/pi-ai/dist/providers/google.js
+// node_modules/.pnpm/@earendil-works+pi-ai@0.79.6_patch_hash=feb48f02b3090b924e4a1df96f555d25ebf591ee68c7ace_f8e43712851b5deac3f760407c7aa54b/node_modules/@earendil-works/pi-ai/dist/providers/google.js
 var google_exports = {};
 __export(google_exports, {
   streamGoogle: () => streamGoogle,
@@ -75065,7 +75102,7 @@ function getGoogleBudget(model, effort, customBudgets) {
 }
 var toolCallCounter, streamGoogle, streamSimpleGoogle;
 var init_google = __esm({
-  "node_modules/.pnpm/@earendil-works+pi-ai@0.79.6_@modelcontextprotocol+sdk@1.29.0_zod@4.4.3__ws@8.21.0_zod@4.4.3/node_modules/@earendil-works/pi-ai/dist/providers/google.js"() {
+  "node_modules/.pnpm/@earendil-works+pi-ai@0.79.6_patch_hash=feb48f02b3090b924e4a1df96f555d25ebf591ee68c7ace_f8e43712851b5deac3f760407c7aa54b/node_modules/@earendil-works/pi-ai/dist/providers/google.js"() {
     init_node();
     init_models2();
     init_event_stream();
@@ -75300,7 +75337,7 @@ var init_google = __esm({
   }
 });
 
-// node_modules/.pnpm/@earendil-works+pi-ai@0.79.6_@modelcontextprotocol+sdk@1.29.0_zod@4.4.3__ws@8.21.0_zod@4.4.3/node_modules/@earendil-works/pi-ai/dist/providers/google-vertex.js
+// node_modules/.pnpm/@earendil-works+pi-ai@0.79.6_patch_hash=feb48f02b3090b924e4a1df96f555d25ebf591ee68c7ace_f8e43712851b5deac3f760407c7aa54b/node_modules/@earendil-works/pi-ai/dist/providers/google-vertex.js
 var google_vertex_exports = {};
 __export(google_vertex_exports, {
   streamGoogleVertex: () => streamGoogleVertex,
@@ -75495,7 +75532,7 @@ function getGoogleBudget2(model, effort, customBudgets) {
 }
 var API_VERSION, GCP_VERTEX_CREDENTIALS_MARKER, THINKING_LEVEL_MAP, toolCallCounter2, streamGoogleVertex, streamSimpleGoogleVertex;
 var init_google_vertex = __esm({
-  "node_modules/.pnpm/@earendil-works+pi-ai@0.79.6_@modelcontextprotocol+sdk@1.29.0_zod@4.4.3__ws@8.21.0_zod@4.4.3/node_modules/@earendil-works/pi-ai/dist/providers/google-vertex.js"() {
+  "node_modules/.pnpm/@earendil-works+pi-ai@0.79.6_patch_hash=feb48f02b3090b924e4a1df96f555d25ebf591ee68c7ace_f8e43712851b5deac3f760407c7aa54b/node_modules/@earendil-works/pi-ai/dist/providers/google-vertex.js"() {
     init_node();
     init_models2();
     init_event_stream();
@@ -130875,7 +130912,7 @@ var init_esm2 = __esm({
   }
 });
 
-// node_modules/.pnpm/@earendil-works+pi-ai@0.79.6_@modelcontextprotocol+sdk@1.29.0_zod@4.4.3__ws@8.21.0_zod@4.4.3/node_modules/@earendil-works/pi-ai/dist/providers/mistral.js
+// node_modules/.pnpm/@earendil-works+pi-ai@0.79.6_patch_hash=feb48f02b3090b924e4a1df96f555d25ebf591ee68c7ace_f8e43712851b5deac3f760407c7aa54b/node_modules/@earendil-works/pi-ai/dist/providers/mistral.js
 var mistral_exports = {};
 __export(mistral_exports, {
   streamMistral: () => streamMistral,
@@ -131316,7 +131353,7 @@ function mapChatStopReason(reason) {
 }
 var MISTRAL_TOOL_CALL_ID_LENGTH, MAX_MISTRAL_ERROR_BODY_CHARS, streamMistral, streamSimpleMistral;
 var init_mistral = __esm({
-  "node_modules/.pnpm/@earendil-works+pi-ai@0.79.6_@modelcontextprotocol+sdk@1.29.0_zod@4.4.3__ws@8.21.0_zod@4.4.3/node_modules/@earendil-works/pi-ai/dist/providers/mistral.js"() {
+  "node_modules/.pnpm/@earendil-works+pi-ai@0.79.6_patch_hash=feb48f02b3090b924e4a1df96f555d25ebf591ee68c7ace_f8e43712851b5deac3f760407c7aa54b/node_modules/@earendil-works/pi-ai/dist/providers/mistral.js"() {
     init_esm2();
     init_models2();
     init_event_stream();
@@ -131388,7 +131425,7 @@ var init_mistral = __esm({
   }
 });
 
-// node_modules/.pnpm/@earendil-works+pi-ai@0.79.6_@modelcontextprotocol+sdk@1.29.0_zod@4.4.3__ws@8.21.0_zod@4.4.3/node_modules/@earendil-works/pi-ai/dist/session-resources.js
+// node_modules/.pnpm/@earendil-works+pi-ai@0.79.6_patch_hash=feb48f02b3090b924e4a1df96f555d25ebf591ee68c7ace_f8e43712851b5deac3f760407c7aa54b/node_modules/@earendil-works/pi-ai/dist/session-resources.js
 function registerSessionResourceCleanup(cleanup) {
   sessionResourceCleanups.add(cleanup);
   return () => {
@@ -131397,12 +131434,12 @@ function registerSessionResourceCleanup(cleanup) {
 }
 var sessionResourceCleanups;
 var init_session_resources = __esm({
-  "node_modules/.pnpm/@earendil-works+pi-ai@0.79.6_@modelcontextprotocol+sdk@1.29.0_zod@4.4.3__ws@8.21.0_zod@4.4.3/node_modules/@earendil-works/pi-ai/dist/session-resources.js"() {
+  "node_modules/.pnpm/@earendil-works+pi-ai@0.79.6_patch_hash=feb48f02b3090b924e4a1df96f555d25ebf591ee68c7ace_f8e43712851b5deac3f760407c7aa54b/node_modules/@earendil-works/pi-ai/dist/session-resources.js"() {
     sessionResourceCleanups = /* @__PURE__ */ new Set();
   }
 });
 
-// node_modules/.pnpm/@earendil-works+pi-ai@0.79.6_@modelcontextprotocol+sdk@1.29.0_zod@4.4.3__ws@8.21.0_zod@4.4.3/node_modules/@earendil-works/pi-ai/dist/utils/abort-signals.js
+// node_modules/.pnpm/@earendil-works+pi-ai@0.79.6_patch_hash=feb48f02b3090b924e4a1df96f555d25ebf591ee68c7ace_f8e43712851b5deac3f760407c7aa54b/node_modules/@earendil-works/pi-ai/dist/utils/abort-signals.js
 function combineAbortSignals(signals) {
   const activeSignals = signals.filter((signal) => signal !== void 0);
   if (activeSignals.length === 0) {
@@ -131439,11 +131476,11 @@ function combineAbortSignals(signals) {
   };
 }
 var init_abort_signals = __esm({
-  "node_modules/.pnpm/@earendil-works+pi-ai@0.79.6_@modelcontextprotocol+sdk@1.29.0_zod@4.4.3__ws@8.21.0_zod@4.4.3/node_modules/@earendil-works/pi-ai/dist/utils/abort-signals.js"() {
+  "node_modules/.pnpm/@earendil-works+pi-ai@0.79.6_patch_hash=feb48f02b3090b924e4a1df96f555d25ebf591ee68c7ace_f8e43712851b5deac3f760407c7aa54b/node_modules/@earendil-works/pi-ai/dist/utils/abort-signals.js"() {
   }
 });
 
-// node_modules/.pnpm/@earendil-works+pi-ai@0.79.6_@modelcontextprotocol+sdk@1.29.0_zod@4.4.3__ws@8.21.0_zod@4.4.3/node_modules/@earendil-works/pi-ai/dist/utils/diagnostics.js
+// node_modules/.pnpm/@earendil-works+pi-ai@0.79.6_patch_hash=feb48f02b3090b924e4a1df96f555d25ebf591ee68c7ace_f8e43712851b5deac3f760407c7aa54b/node_modules/@earendil-works/pi-ai/dist/utils/diagnostics.js
 function formatThrownValue(value) {
   if (value instanceof Error)
     return value.message || value.name;
@@ -131469,11 +131506,11 @@ function appendAssistantMessageDiagnostic(message, diagnostic) {
   message.diagnostics = [...message.diagnostics ?? [], diagnostic];
 }
 var init_diagnostics = __esm({
-  "node_modules/.pnpm/@earendil-works+pi-ai@0.79.6_@modelcontextprotocol+sdk@1.29.0_zod@4.4.3__ws@8.21.0_zod@4.4.3/node_modules/@earendil-works/pi-ai/dist/utils/diagnostics.js"() {
+  "node_modules/.pnpm/@earendil-works+pi-ai@0.79.6_patch_hash=feb48f02b3090b924e4a1df96f555d25ebf591ee68c7ace_f8e43712851b5deac3f760407c7aa54b/node_modules/@earendil-works/pi-ai/dist/utils/diagnostics.js"() {
   }
 });
 
-// node_modules/.pnpm/@earendil-works+pi-ai@0.79.6_@modelcontextprotocol+sdk@1.29.0_zod@4.4.3__ws@8.21.0_zod@4.4.3/node_modules/@earendil-works/pi-ai/dist/utils/node-http-proxy.js
+// node_modules/.pnpm/@earendil-works+pi-ai@0.79.6_patch_hash=feb48f02b3090b924e4a1df96f555d25ebf591ee68c7ace_f8e43712851b5deac3f760407c7aa54b/node_modules/@earendil-works/pi-ai/dist/utils/node-http-proxy.js
 function getProxyEnv(key, env2) {
   const lowercaseKey = key.toLowerCase();
   const uppercaseKey = key.toUpperCase();
@@ -131551,7 +131588,7 @@ function resolveHttpProxyUrlForTarget(targetUrl, env2) {
 }
 var DEFAULT_PROXY_PORTS, UNSUPPORTED_PROXY_PROTOCOL_MESSAGE;
 var init_node_http_proxy = __esm({
-  "node_modules/.pnpm/@earendil-works+pi-ai@0.79.6_@modelcontextprotocol+sdk@1.29.0_zod@4.4.3__ws@8.21.0_zod@4.4.3/node_modules/@earendil-works/pi-ai/dist/utils/node-http-proxy.js"() {
+  "node_modules/.pnpm/@earendil-works+pi-ai@0.79.6_patch_hash=feb48f02b3090b924e4a1df96f555d25ebf591ee68c7ace_f8e43712851b5deac3f760407c7aa54b/node_modules/@earendil-works/pi-ai/dist/utils/node-http-proxy.js"() {
     init_provider_env();
     DEFAULT_PROXY_PORTS = {
       ftp: 21,
@@ -131565,7 +131602,7 @@ var init_node_http_proxy = __esm({
   }
 });
 
-// node_modules/.pnpm/@earendil-works+pi-ai@0.79.6_@modelcontextprotocol+sdk@1.29.0_zod@4.4.3__ws@8.21.0_zod@4.4.3/node_modules/@earendil-works/pi-ai/dist/providers/openai-codex-responses.js
+// node_modules/.pnpm/@earendil-works+pi-ai@0.79.6_patch_hash=feb48f02b3090b924e4a1df96f555d25ebf591ee68c7ace_f8e43712851b5deac3f760407c7aa54b/node_modules/@earendil-works/pi-ai/dist/providers/openai-codex-responses.js
 var openai_codex_responses_exports = {};
 __export(openai_codex_responses_exports, {
   closeOpenAICodexWebSocketSessions: () => closeOpenAICodexWebSocketSessions,
@@ -132429,7 +132466,7 @@ function buildWebSocketHeaders(initHeaders, additionalHeaders, accountId, token,
 }
 var __rewriteRelativeImportExtension2, _os, dynamicImport2, NODE_OS_SPECIFIER2, DEFAULT_CODEX_BASE_URL, JWT_CLAIM_PATH, DEFAULT_MAX_RETRIES, BASE_DELAY_MS, DEFAULT_MAX_RETRY_DELAY_MS, DEFAULT_SSE_HEADER_TIMEOUT_MS, DEFAULT_WEBSOCKET_CONNECT_TIMEOUT_MS, CODEX_TOOL_CALL_PROVIDERS, WEBSOCKET_MESSAGE_TOO_BIG_CLOSE_CODE, CODEX_RESPONSE_STATUSES, streamOpenAICodexResponses, streamSimpleOpenAICodexResponses, CodexApiError, CodexProtocolError, OPENAI_BETA_RESPONSES_WEBSOCKETS, SESSION_WEBSOCKET_CACHE_TTL_MS, websocketSessionCache, websocketDebugStats, websocketSseFallbackSessions, _cachedWebsocket, WebSocketCloseError;
 var init_openai_codex_responses = __esm({
-  "node_modules/.pnpm/@earendil-works+pi-ai@0.79.6_@modelcontextprotocol+sdk@1.29.0_zod@4.4.3__ws@8.21.0_zod@4.4.3/node_modules/@earendil-works/pi-ai/dist/providers/openai-codex-responses.js"() {
+  "node_modules/.pnpm/@earendil-works+pi-ai@0.79.6_patch_hash=feb48f02b3090b924e4a1df96f555d25ebf591ee68c7ace_f8e43712851b5deac3f760407c7aa54b/node_modules/@earendil-works/pi-ai/dist/providers/openai-codex-responses.js"() {
     init_models2();
     init_session_resources();
     init_abort_signals();
@@ -132686,7 +132723,7 @@ var init_openai_codex_responses = __esm({
   }
 });
 
-// node_modules/.pnpm/@earendil-works+pi-ai@0.79.6_@modelcontextprotocol+sdk@1.29.0_zod@4.4.3__ws@8.21.0_zod@4.4.3/node_modules/@earendil-works/pi-ai/dist/providers/openai-completions.js
+// node_modules/.pnpm/@earendil-works+pi-ai@0.79.6_patch_hash=feb48f02b3090b924e4a1df96f555d25ebf591ee68c7ace_f8e43712851b5deac3f760407c7aa54b/node_modules/@earendil-works/pi-ai/dist/providers/openai-completions.js
 var openai_completions_exports = {};
 __export(openai_completions_exports, {
   convertMessages: () => convertMessages3,
@@ -133237,7 +133274,7 @@ function getCompat(model) {
 }
 var streamOpenAICompletions, streamSimpleOpenAICompletions;
 var init_openai_completions = __esm({
-  "node_modules/.pnpm/@earendil-works+pi-ai@0.79.6_@modelcontextprotocol+sdk@1.29.0_zod@4.4.3__ws@8.21.0_zod@4.4.3/node_modules/@earendil-works/pi-ai/dist/providers/openai-completions.js"() {
+  "node_modules/.pnpm/@earendil-works+pi-ai@0.79.6_patch_hash=feb48f02b3090b924e4a1df96f555d25ebf591ee68c7ace_f8e43712851b5deac3f760407c7aa54b/node_modules/@earendil-works/pi-ai/dist/providers/openai-completions.js"() {
     init_openai();
     init_models2();
     init_event_stream();
@@ -133536,7 +133573,7 @@ ${rawMetadata}`;
   }
 });
 
-// node_modules/.pnpm/@earendil-works+pi-ai@0.79.6_@modelcontextprotocol+sdk@1.29.0_zod@4.4.3__ws@8.21.0_zod@4.4.3/node_modules/@earendil-works/pi-ai/dist/providers/openai-responses.js
+// node_modules/.pnpm/@earendil-works+pi-ai@0.79.6_patch_hash=feb48f02b3090b924e4a1df96f555d25ebf591ee68c7ace_f8e43712851b5deac3f760407c7aa54b/node_modules/@earendil-works/pi-ai/dist/providers/openai-responses.js
 var openai_responses_exports = {};
 __export(openai_responses_exports, {
   streamOpenAIResponses: () => streamOpenAIResponses,
@@ -133670,7 +133707,7 @@ function applyServiceTierPricing2(usage, serviceTier, model) {
 }
 var OPENAI_TOOL_CALL_PROVIDERS, streamOpenAIResponses, streamSimpleOpenAIResponses;
 var init_openai_responses = __esm({
-  "node_modules/.pnpm/@earendil-works+pi-ai@0.79.6_@modelcontextprotocol+sdk@1.29.0_zod@4.4.3__ws@8.21.0_zod@4.4.3/node_modules/@earendil-works/pi-ai/dist/providers/openai-responses.js"() {
+  "node_modules/.pnpm/@earendil-works+pi-ai@0.79.6_patch_hash=feb48f02b3090b924e4a1df96f555d25ebf591ee68c7ace_f8e43712851b5deac3f760407c7aa54b/node_modules/@earendil-works/pi-ai/dist/providers/openai-responses.js"() {
     init_openai();
     init_models2();
     init_event_stream();
@@ -219725,7 +219762,7 @@ __export(typebox_exports, {
   Void: () => Void
 });
 
-// node_modules/.pnpm/@earendil-works+pi-ai@0.79.6_@modelcontextprotocol+sdk@1.29.0_zod@4.4.3__ws@8.21.0_zod@4.4.3/node_modules/@earendil-works/pi-ai/dist/api-registry.js
+// node_modules/.pnpm/@earendil-works+pi-ai@0.79.6_patch_hash=feb48f02b3090b924e4a1df96f555d25ebf591ee68c7ace_f8e43712851b5deac3f760407c7aa54b/node_modules/@earendil-works/pi-ai/dist/api-registry.js
 var apiProviderRegistry = /* @__PURE__ */ new Map();
 function wrapStream(api, stream2) {
   return (model, context, options) => {
@@ -219757,7 +219794,7 @@ function getApiProvider(api) {
   return apiProviderRegistry.get(api)?.provider;
 }
 
-// node_modules/.pnpm/@earendil-works+pi-ai@0.79.6_@modelcontextprotocol+sdk@1.29.0_zod@4.4.3__ws@8.21.0_zod@4.4.3/node_modules/@earendil-works/pi-ai/dist/env-api-keys.js
+// node_modules/.pnpm/@earendil-works+pi-ai@0.79.6_patch_hash=feb48f02b3090b924e4a1df96f555d25ebf591ee68c7ace_f8e43712851b5deac3f760407c7aa54b/node_modules/@earendil-works/pi-ai/dist/env-api-keys.js
 init_provider_env();
 var __rewriteRelativeImportExtension = function(path6, preserveJsx) {
   if (typeof path6 === "string" && /^\.\.?\//.test(path6)) {
@@ -219879,7 +219916,7 @@ function getEnvApiKey(provider, env2) {
   return void 0;
 }
 
-// node_modules/.pnpm/@earendil-works+pi-ai@0.79.6_@modelcontextprotocol+sdk@1.29.0_zod@4.4.3__ws@8.21.0_zod@4.4.3/node_modules/@earendil-works/pi-ai/dist/image-models.generated.js
+// node_modules/.pnpm/@earendil-works+pi-ai@0.79.6_patch_hash=feb48f02b3090b924e4a1df96f555d25ebf591ee68c7ace_f8e43712851b5deac3f760407c7aa54b/node_modules/@earendil-works/pi-ai/dist/image-models.generated.js
 var IMAGE_MODELS = {
   "openrouter": {
     "black-forest-labs/flux.2-flex": {
@@ -220365,7 +220402,7 @@ var IMAGE_MODELS = {
   }
 };
 
-// node_modules/.pnpm/@earendil-works+pi-ai@0.79.6_@modelcontextprotocol+sdk@1.29.0_zod@4.4.3__ws@8.21.0_zod@4.4.3/node_modules/@earendil-works/pi-ai/dist/image-models.js
+// node_modules/.pnpm/@earendil-works+pi-ai@0.79.6_patch_hash=feb48f02b3090b924e4a1df96f555d25ebf591ee68c7ace_f8e43712851b5deac3f760407c7aa54b/node_modules/@earendil-works/pi-ai/dist/image-models.js
 var imageModelRegistry = /* @__PURE__ */ new Map();
 for (const [provider, models] of Object.entries(IMAGE_MODELS)) {
   const providerModels = /* @__PURE__ */ new Map();
@@ -220375,7 +220412,7 @@ for (const [provider, models] of Object.entries(IMAGE_MODELS)) {
   imageModelRegistry.set(provider, providerModels);
 }
 
-// node_modules/.pnpm/@earendil-works+pi-ai@0.79.6_@modelcontextprotocol+sdk@1.29.0_zod@4.4.3__ws@8.21.0_zod@4.4.3/node_modules/@earendil-works/pi-ai/dist/images-api-registry.js
+// node_modules/.pnpm/@earendil-works+pi-ai@0.79.6_patch_hash=feb48f02b3090b924e4a1df96f555d25ebf591ee68c7ace_f8e43712851b5deac3f760407c7aa54b/node_modules/@earendil-works/pi-ai/dist/images-api-registry.js
 var imagesApiProviderRegistry = /* @__PURE__ */ new Map();
 function wrapGenerateImages(api, generateImages) {
   return (model, context, options) => {
@@ -220395,7 +220432,7 @@ function registerImagesApiProvider(provider, sourceId) {
   });
 }
 
-// node_modules/.pnpm/@earendil-works+pi-ai@0.79.6_@modelcontextprotocol+sdk@1.29.0_zod@4.4.3__ws@8.21.0_zod@4.4.3/node_modules/@earendil-works/pi-ai/dist/providers/images/register-builtins.js
+// node_modules/.pnpm/@earendil-works+pi-ai@0.79.6_patch_hash=feb48f02b3090b924e4a1df96f555d25ebf591ee68c7ace_f8e43712851b5deac3f760407c7aa54b/node_modules/@earendil-works/pi-ai/dist/providers/images/register-builtins.js
 var openRouterImagesProviderModulePromise;
 function createLazyLoadErrorImages(model, error51) {
   return {
@@ -220428,13 +220465,13 @@ function registerBuiltInImagesApiProviders() {
 }
 registerBuiltInImagesApiProviders();
 
-// node_modules/.pnpm/@earendil-works+pi-ai@0.79.6_@modelcontextprotocol+sdk@1.29.0_zod@4.4.3__ws@8.21.0_zod@4.4.3/node_modules/@earendil-works/pi-ai/dist/index.js
+// node_modules/.pnpm/@earendil-works+pi-ai@0.79.6_patch_hash=feb48f02b3090b924e4a1df96f555d25ebf591ee68c7ace_f8e43712851b5deac3f760407c7aa54b/node_modules/@earendil-works/pi-ai/dist/index.js
 init_models2();
 
-// node_modules/.pnpm/@earendil-works+pi-ai@0.79.6_@modelcontextprotocol+sdk@1.29.0_zod@4.4.3__ws@8.21.0_zod@4.4.3/node_modules/@earendil-works/pi-ai/dist/providers/faux.js
+// node_modules/.pnpm/@earendil-works+pi-ai@0.79.6_patch_hash=feb48f02b3090b924e4a1df96f555d25ebf591ee68c7ace_f8e43712851b5deac3f760407c7aa54b/node_modules/@earendil-works/pi-ai/dist/providers/faux.js
 init_event_stream();
 
-// node_modules/.pnpm/@earendil-works+pi-ai@0.79.6_@modelcontextprotocol+sdk@1.29.0_zod@4.4.3__ws@8.21.0_zod@4.4.3/node_modules/@earendil-works/pi-ai/dist/providers/register-builtins.js
+// node_modules/.pnpm/@earendil-works+pi-ai@0.79.6_patch_hash=feb48f02b3090b924e4a1df96f555d25ebf591ee68c7ace_f8e43712851b5deac3f760407c7aa54b/node_modules/@earendil-works/pi-ai/dist/providers/register-builtins.js
 init_event_stream();
 var __rewriteRelativeImportExtension3 = function(path6, preserveJsx) {
   if (typeof path6 === "string" && /^\.\.?\//.test(path6)) {
@@ -220674,10 +220711,10 @@ function registerBuiltInApiProviders() {
 }
 registerBuiltInApiProviders();
 
-// node_modules/.pnpm/@earendil-works+pi-ai@0.79.6_@modelcontextprotocol+sdk@1.29.0_zod@4.4.3__ws@8.21.0_zod@4.4.3/node_modules/@earendil-works/pi-ai/dist/index.js
+// node_modules/.pnpm/@earendil-works+pi-ai@0.79.6_patch_hash=feb48f02b3090b924e4a1df96f555d25ebf591ee68c7ace_f8e43712851b5deac3f760407c7aa54b/node_modules/@earendil-works/pi-ai/dist/index.js
 init_session_resources();
 
-// node_modules/.pnpm/@earendil-works+pi-ai@0.79.6_@modelcontextprotocol+sdk@1.29.0_zod@4.4.3__ws@8.21.0_zod@4.4.3/node_modules/@earendil-works/pi-ai/dist/stream.js
+// node_modules/.pnpm/@earendil-works+pi-ai@0.79.6_patch_hash=feb48f02b3090b924e4a1df96f555d25ebf591ee68c7ace_f8e43712851b5deac3f760407c7aa54b/node_modules/@earendil-works/pi-ai/dist/stream.js
 function hasExplicitApiKey(apiKey) {
   return typeof apiKey === "string" && apiKey.trim().length > 0;
 }
@@ -220705,12 +220742,12 @@ async function completeSimple(model, context, options) {
   return s11.result();
 }
 
-// node_modules/.pnpm/@earendil-works+pi-ai@0.79.6_@modelcontextprotocol+sdk@1.29.0_zod@4.4.3__ws@8.21.0_zod@4.4.3/node_modules/@earendil-works/pi-ai/dist/index.js
+// node_modules/.pnpm/@earendil-works+pi-ai@0.79.6_patch_hash=feb48f02b3090b924e4a1df96f555d25ebf591ee68c7ace_f8e43712851b5deac3f760407c7aa54b/node_modules/@earendil-works/pi-ai/dist/index.js
 init_diagnostics();
 init_event_stream();
 init_json_parse();
 
-// node_modules/.pnpm/@earendil-works+pi-ai@0.79.6_@modelcontextprotocol+sdk@1.29.0_zod@4.4.3__ws@8.21.0_zod@4.4.3/node_modules/@earendil-works/pi-ai/dist/utils/overflow.js
+// node_modules/.pnpm/@earendil-works+pi-ai@0.79.6_patch_hash=feb48f02b3090b924e4a1df96f555d25ebf591ee68c7ace_f8e43712851b5deac3f760407c7aa54b/node_modules/@earendil-works/pi-ai/dist/utils/overflow.js
 var OVERFLOW_PATTERNS = [
   /prompt is too long/i,
   // Anthropic token overflow
@@ -225480,7 +225517,7 @@ function Compile(...args) {
   return new Validator(context, type);
 }
 
-// node_modules/.pnpm/@earendil-works+pi-ai@0.79.6_@modelcontextprotocol+sdk@1.29.0_zod@4.4.3__ws@8.21.0_zod@4.4.3/node_modules/@earendil-works/pi-ai/dist/utils/validation.js
+// node_modules/.pnpm/@earendil-works+pi-ai@0.79.6_patch_hash=feb48f02b3090b924e4a1df96f555d25ebf591ee68c7ace_f8e43712851b5deac3f760407c7aa54b/node_modules/@earendil-works/pi-ai/dist/utils/validation.js
 var validatorCache = /* @__PURE__ */ new WeakMap();
 var TYPEBOX_KIND = Symbol.for("TypeBox.Kind");
 function isRecord(value) {
